@@ -1,0 +1,6 @@
+3.003.2.011		"Was ist neu" Datei hinzugefügt.
+
+3.003.3.012		CGlView kann WM_SETTINGCHANGE so behandeln, daß eine Änderung der Farbtiefe
+				das Fenster neu erstellt und OpenGl reinitialisiert. Ausserdem versuchen wir, 
+				wenn ChoosePixelFormat fehlschlägt, ein doppeltes gepuffertes Pixelformat zu 
+				erhalten.

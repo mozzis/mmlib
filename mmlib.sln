@@ -1,0 +1,73 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGL", "OpenGL\OpenGL.vcproj", "{1CAB823D-F8CA-43E3-8672-8B787316C4D3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GridCtrl", "GridCtrl\GridCtrl.vcproj", "{86314E37-673E-47CA-8E31-FB39EBDED177}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemDC", "MemDC\MemDC.vcproj", "{90DAC690-4E6B-4754-AE06-29491CE5893F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "controls", "controls\controls.vcproj", "{F7116D8A-EDAB-464F-9E88-CB6A15FD0817}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utils", "utils\utils.vcproj", "{FC3294FF-1698-46B6-8936-E3C9C2FAD05F}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 6
+		SccProjectName0 = \u0022$/mmlib\u0022,\u0020TTGAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:SourceOffSite
+		CanCheckoutShared = true
+		SolutionUniqueID = {793FF0E6-4EFF-4CE7-A4CC-EBC0BB80893D}
+		SccProjectUniqueName1 = controls\\controls.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = controls\\
+		SccProjectUniqueName2 = GridCtrl\\GridCtrl.vcproj
+		SccLocalPath2 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = GridCtrl\\
+		SccProjectUniqueName3 = MemDC\\MemDC.vcproj
+		SccLocalPath3 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection3 = MemDC\\
+		SccProjectUniqueName4 = OpenGL\\OpenGL.vcproj
+		SccLocalPath4 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection4 = OpenGL\\
+		SccProjectUniqueName5 = utils\\utils.vcproj
+		SccLocalPath5 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection5 = utils\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1CAB823D-F8CA-43E3-8672-8B787316C4D3}.Debug.ActiveCfg = Debug|Win32
+		{1CAB823D-F8CA-43E3-8672-8B787316C4D3}.Debug.Build.0 = Debug|Win32
+		{1CAB823D-F8CA-43E3-8672-8B787316C4D3}.Release.ActiveCfg = Release|Win32
+		{1CAB823D-F8CA-43E3-8672-8B787316C4D3}.Release.Build.0 = Release|Win32
+		{86314E37-673E-47CA-8E31-FB39EBDED177}.Debug.ActiveCfg = Debug|Win32
+		{86314E37-673E-47CA-8E31-FB39EBDED177}.Debug.Build.0 = Debug|Win32
+		{86314E37-673E-47CA-8E31-FB39EBDED177}.Release.ActiveCfg = Release|Win32
+		{86314E37-673E-47CA-8E31-FB39EBDED177}.Release.Build.0 = Release|Win32
+		{90DAC690-4E6B-4754-AE06-29491CE5893F}.Debug.ActiveCfg = Debug|Win32
+		{90DAC690-4E6B-4754-AE06-29491CE5893F}.Debug.Build.0 = Debug|Win32
+		{90DAC690-4E6B-4754-AE06-29491CE5893F}.Release.ActiveCfg = Release|Win32
+		{90DAC690-4E6B-4754-AE06-29491CE5893F}.Release.Build.0 = Release|Win32
+		{F7116D8A-EDAB-464F-9E88-CB6A15FD0817}.Debug.ActiveCfg = Debug|Win32
+		{F7116D8A-EDAB-464F-9E88-CB6A15FD0817}.Debug.Build.0 = Debug|Win32
+		{F7116D8A-EDAB-464F-9E88-CB6A15FD0817}.Release.ActiveCfg = Release|Win32
+		{F7116D8A-EDAB-464F-9E88-CB6A15FD0817}.Release.Build.0 = Release|Win32
+		{FC3294FF-1698-46B6-8936-E3C9C2FAD05F}.Debug.ActiveCfg = Debug|Win32
+		{FC3294FF-1698-46B6-8936-E3C9C2FAD05F}.Debug.Build.0 = Debug|Win32
+		{FC3294FF-1698-46B6-8936-E3C9C2FAD05F}.Release.ActiveCfg = Release|Win32
+		{FC3294FF-1698-46B6-8936-E3C9C2FAD05F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

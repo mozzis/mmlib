@@ -1,0 +1,44 @@
+//
+// GENERAL.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_INTEGER_GREATER						"Geben Sie bitte eine ganze Zahl größer %d ein."
+    IDS_INTEGER_GREATER_EQUAL				"Geben Sie bitte eine ganze Zahl größer gleich %d ein."
+    IDS_INTEGER_LESS						"Geben Sie bitte eine ganze Zahl kleiner %d ein."
+    IDS_INTEGER_LESS_EQUAL					"Geben Sie bitte eine ganze Zahl kleiner gleich %d ein."
+    IDS_INTEGER_GREATER_LESS				"Geben Sie bitte eine ganze Zahl echt zwischen %d und %d ein."
+    IDS_INTEGER_GREATER_EQUAL_LESS			"Geben Sie bitte eine ganze Zahl größer gleich %d und kleiner %d ein."
+    IDS_INTEGER_GREATER_LESS_EQUAL			"Geben Sie bitte eine ganze Zahl größer %d und kleiner gleich %d ein."
+    IDS_INTEGER_NOT_EQUAL					"Geben Sie bitte eine ganze Zahl ungleich %d ein."
+    IDS_INTEGER_LESS_GREATER				"Geben Sie bitte eine ganze Zahl kleiner %d oder größer %d ein."
+    IDS_INTEGER_LESS_GREATER_EQUAL			"Geben Sie bitte eine ganze Zahl kleiner %d oder größer gleich %d ein."
+    IDS_INTEGER_LESS_EQUAL_GREATER			"Geben Sie bitte eine ganze Zahl kleiner gleich %d oder größer %d ein."
+    IDS_INTEGER_LESS_EQUAL_GREATER_EQUAL	"Geben Sie bitte eine ganze Zahl kleiner gleich %d oder größer gleich %d ein."
+    IDS_NUMBER_GREATER						"Geben Sie bitte eine Zahl größer %g ein."
+    IDS_NUMBER_GREATER_EQUAL				"Geben Sie bitte eine Zahl größer gleich %g ein."
+    IDS_NUMBER_LESS							"Geben Sie bitte eine Zahl kleiner %g ein."
+    IDS_NUMBER_LESS_EQUAL					"Geben Sie bitte eine Zahl kleiner gleich %g ein."
+    IDS_NUMBER_GREATER_LESS					"Geben Sie bitte eine Zahl echt zwischen %g und %g ein."
+    IDS_NUMBER_GREATER_EQUAL_LESS			"Geben Sie bitte eine Zahl größer gleich %g und kleiner %g ein."
+    IDS_NUMBER_GREATER_LESS_EQUAL			"Geben Sie bitte eine Zahl größer %g und kleiner gleich %g ein."
+    IDS_NUMBER_NOT_EQUAL					"Geben Sie bitte eine Zahl ungleich %g ein."
+    IDS_NUMBER_LESS_GREATER					"Geben Sie bitte eine Zahl kleiner %g oder größer %g ein."
+    IDS_NUMBER_LESS_GREATER_EQUAL			"Geben Sie bitte eine Zahl kleiner %g oder größer gleich %g ein."
+    IDS_NUMBER_LESS_EQUAL_GREATER			"Geben Sie bitte eine Zahl kleiner gleich %g oder größer %g ein."
+    IDS_NUMBER_LESS_EQUAL_GREATER_EQUAL		"Geben Sie bitte eine Zahl kleiner gleich %g oder größer gleich %g ein."
+END

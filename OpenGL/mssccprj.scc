@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[General.dsp]
+SCC_Aux_Path = "C:\SS"
+SCC_Project_Name = "$/Judson/General", ICDAAAAA
+
+[OpenGL.dsp]
+SCC_Aux_Path = "\\Ahithophel\SS\"
+SCC_Project_Name = "$/mmlib/OpenGL", AUGAAAAA

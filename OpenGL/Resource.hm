@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by OpenGL.rc
+//
+#define HIDC_STATIC_OPTIONS             0xa7922b0d    // IDD_DLG_FILE_PRINT_OPTIONS

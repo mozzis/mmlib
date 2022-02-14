@@ -1,0 +1,540 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "Resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "Resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\OpenGL.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standardkomponenten\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_OPENGL_INFO DIALOGEX 0, 0, 199, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "OpenGl Information"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "GL Bibliothek",IDC_STATIC,5,3,189,117,WS_GROUP
+    LTEXT           "Firma :",IDC_STATIC,12,16,56,8,0,WS_EX_RIGHT
+    LTEXT           "Nicht verfügbar",IDC_STATIC_GL_VENDOR,71,16,117,8
+    LTEXT           "Wiedergabe :",IDC_STATIC,12,26,56,8,0,WS_EX_RIGHT
+    LTEXT           "Nicht verfügbar",IDC_STATIC_GL_RENDERER,71,26,117,8
+    LTEXT           "Version :",IDC_STATIC,12,36,56,8,0,WS_EX_RIGHT
+    LTEXT           "Nicht verfügbar",IDC_STATIC_GL_VERSION,71,36,117,8
+    LTEXT           "Beschleunigung :",IDC_STATIC,12,46,56,8,0,WS_EX_RIGHT
+    LTEXT           "Nicht verfügbar",IDC_STATIC_GL_ACCELERATION,71,46,117,8
+    LTEXT           "Erweiterungen :",IDC_STATIC,12,61,56,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_GL_EXTENSIONS,71,61,117,52,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "GLU Bibliothek",IDC_STATIC,5,125,189,60,WS_GROUP
+    LTEXT           "Version :",IDC_STATIC,12,138,56,8,0,WS_EX_RIGHT
+    LTEXT           "Nicht verfügbar",IDC_STATIC_GLU_VERSION,71,138,117,8
+    LTEXT           "Erweiterungen :",IDC_STATIC,12,153,56,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_GLU_EXTENSIONS,71,153,117,25,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | NOT 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "Schließen",IDOK,144,191,50,14
+    PUSHBUTTON      "Details...",IDC_DETAILS,90,191,50,14
+END
+
+IDD_DLG_FILE_PRINT_OPTIONS DIALOGEX 0, 0, 367, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Druckeinrichtung"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "&Auswahl",IDC_STATIC,8,4,135,80,WS_GROUP
+    CONTROL         "aktuelles Graphikfenster",IDC_PRINT_VIEW,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,18,22,92,10
+    CONTROL         "aktuelles Dokument",IDC_PRINT_DOC,"Button",
+                    BS_AUTORADIOBUTTON,18,42,79,10
+    CONTROL         "ganze Anwendung (Screenshot)",IDC_PRINT_APP,"Button",
+                    BS_AUTORADIOBUTTON,18,62,117,10
+    GROUPBOX        "&Optionen",IDC_STATIC_OPTIONS,151,4,150,80,WS_GROUP,0,
+                    HIDC_STATIC_OPTIONS
+    LTEXT           "DIB obere Schranke:",IDC_STATIC_TEXT_F_ONE,162,22,68,8
+    EDITTEXT        IDC_PRINT_MEM,161,37,40,14,ES_AUTOHSCROLL
+    LTEXT           "kB",IDC_STATIC_TEXT_F_TWO,209,39,10,8
+    CONTROL         "Hintergrund weiß",IDC_PRINT_BKGND_WHITE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,161,62,69,10
+    PUSHBUTTON      "&Standard",IDC_PRINT_MEM_STANDARD,241,19,50,14
+    PUSHBUTTON      "&Hilfe",IDC_BUTTON_HELP,241,37,50,14
+    DEFPUSHBUTTON   "OK",IDOK,309,8,50,14,WS_GROUP
+    PUSHBUTTON      "Abbrechen",IDCANCEL,309,25,50,14
+    PUSHBUTTON      "&Drucker",IDC_BUTTON_PRINTER,309,43,50,14
+END
+
+IDD_DLG_OPTIONS DIALOG DISCARDABLE  0, 0, 205, 241
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Optionen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Maus",IDC_STATIC,8,4,132,85,WS_GROUP
+    LTEXT           "Linke Maustaste - Zoom/Drehen",IDC_STATIC,18,20,104,8
+    CONTROL         "Doppelklick/Klick",IDC_RADIO_MOUSE_POLICY_0,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,18,38,72,10
+    CONTROL         "Klick/Klick",IDC_RADIO_MOUSE_POLICY_1,"Button",
+                    BS_AUTORADIOBUTTON,18,53,50,10
+    CONTROL         "Klick+Halten/Loslassen",IDC_RADIO_MOUSE_POLICY_2,"Button",
+                    BS_AUTORADIOBUTTON,18,68,91,10
+    GROUPBOX        "&Eigenschaften - Gültigkeitsbereich",IDC_STATIC,8,97,
+                    131,40,WS_GROUP
+    CONTROL         "alle Fenster",IDC_CHECK_PROP_POLICY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,18,115,52,10
+    GROUPBOX        "&Letzte Datei",IDC_STATIC,8,145,131,40,WS_GROUP
+    CONTROL         "automatisch öffnen",IDC_CHECK_REOPEN_POLICY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,18,163,76,10
+    GROUPBOX        "&Speichern mit Graphik - Anzahl Bytes",
+                    IDC_STATIC_SERIALZE_GRAPH_BYTES_GBOX,8,193,131,40,
+                    WS_GROUP
+    CONTROL         "1",IDC_RADIO_SERIALZE_GRAPH_BYTES_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,19,211,20,10
+    CONTROL         "2",IDC_RADIO_SERIALZE_GRAPH_BYTES_2,"Button",
+                    BS_AUTORADIOBUTTON,49,211,20,10
+    CONTROL         "4",IDC_RADIO_SERIALZE_GRAPH_BYTES_4,"Button",
+                    BS_AUTORADIOBUTTON,79,211,20,10
+    CONTROL         "8",IDC_RADIO_SERIALZE_GRAPH_BYTES_8,"Button",
+                    BS_AUTORADIOBUTTON,109,211,20,10
+    DEFPUSHBUTTON   "OK",IDOK,147,8,50,14,WS_GROUP
+    PUSHBUTTON      "Abbrechen",IDCANCEL,147,25,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,3,3,12
+ PRODUCTVERSION 3,3,3,12
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "Comments", "erstellt von Uwe Kotyczka\r\n\r\nkotyczka@bnm-gmbh.de\0"
+            VALUE "CompanyName", "BNM GmbH\0"
+            VALUE "FileDescription", "DLL OpenGL\0"
+            VALUE "FileVersion", "3.003.3.012\0"
+            VALUE "InternalName", "OpenGL32\0"
+            VALUE "LegalCopyright", "Copyright ©  1998 - 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "OpenGL32.dll\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Dynamische Link Library OpenGL\0"
+            VALUE "ProductVersion", "3.003.3.012\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLG_OPENGL_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 194
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_DLG_FILE_PRINT_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 359
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_DLG_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 197
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 233
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_OPENGLINFO          "Maximale Anzahl von Lichtern: %d\n\nMaximale Anzahl von anwendungsdefinierten Begrenzungsebenen: %d\n\n\n\nMaximal unterstützte Tiefe des Modellansichtsmatrixstapels: %d\n\nMaximal unterstützte Tiefe des Projektionsmatrixstapels: %d\n\nMaximal unterstützte Tiefe des Texturmatrixstapels: %d\n\nMaximal unterstützte Tiefe des Namensauswahlstapels: %d\n\nMaximal unterstützte Tiefe des Attributestapels: %d\n\n\n\nMaximale Breite oder Höhe von allen Texturbildern: %d\n\nMaximal erlaubte Rekursionstiefe während Anzeigelistendurchlaufs: %d\n\nMaximale von 1-D und 2-D Auswertern unterstützte Gleichungsordnung: %d\n\nMaximal unterstützte Breite und Höhe des Darstellungsfeldes: %dx%d\n\n\n\nAnzahl der zusätzlichen Farbpuffer: %d\n\n\n\nUnterstützte Größen für geglättete Punkte: %g-%g\n\nGrößendifferenz zwischen benachbarten unterstützten Größen für geglättete Punkte: %g\n\n\n\nUnterstützte Breiten für geglättete Linien: %g-%g\n\nGrößendifferenz zwischen benachbarten unterstützten Breiten für geglättete Linien: %g\n"
+    IDS_PRINTERGDI_ERROR    "Der Drucker '%s' unterstützt nicht die angeforderten Funktionen."
+    IDS_OGL_HARDWARE        "Voll beschleunigt (ICD)"
+    IDS_OGL_HWPARTIAL       "Teilweise beschleunigt (MCD)"
+    IDS_OGL_SOFTWARE        "Nicht beschleunigt (Software)"
+    IDS_NOTAVAILABLE        "Not Available"
+    IDS_ERR_MAXZOOM         "Zoom: Maximal mögliche Auflösung erreicht, weiteres Zoomen nicht möglich."
+    IDS_LINKMAUS_DBLKLIK    "Linke Maustaste: Doppelklick/Klick"
+    IDS_LINKMAUS_KLIK       "Linke Maustaste: Klick/Klick"
+    IDS_LINKMAUS_KLIKHALT   "Linke Maustaste: Klick+Halten/Loslassen"
+    IDS_EIGEN_AKTUEL        "Eigenschaften für aktuelles Fenster"
+    IDS_EIGEN_ALLES         "Eigenschaften für alle Fenster"
+    IDS_REOPEN_NONE         "Bei Neustart wird die neue Dateiliste nicht berücksichtigt."
+    IDS_REOPEN_FIRST        "Bei Neustart wird das erste Dokument der neuen Dateiliste geöffnet."
+    IDS_GRAFPREC_1BYTE      """Speichern mit Graphik"" speichert die Graphikdaten mit minimaler Genauigkeit (1 Byte)."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_GRAFPREC_2BYTE      """Speichern mit Graphik"" speichert die Graphikdaten mit geringer Genauigkeit (2 Bytes)."
+    IDS_GRAFPREC_4BYTE      """Speichern mit Graphik\\"" speichert die Graphikdaten mit normaler Genauigkeit (4 Bytes)."
+    IDS_GRAFPREC_8BYTE      """Speichern mit Graphik\\"" speichert die Graphikdaten mit hoher Genauigkeit (8 Bytes)."
+    IDS_ERR_PRINTERFNC      "Der Drucker unterstützt nicht die angeforderten Funktionen."
+    IDS_ERR_PRINTNOMEM      "Es konnte nicht gedruckt werden.\nZu wenig Speicher."
+    IDS_ERR_PRINTNOSTART    "Druckjob konnte nicht gestartet werden."
+    IDS_ERR_OSNOMEM         "Das Betriebssystem hat nicht\ngenügend Speicher oder Resourcen."
+    IDS_ERR_PATHNOTFOUND    "Der angegebene Pfad konnte nicht gefunden werden."
+    IDS_ERR_FILENOTFOUND    "Die angegebene Datei konnte nicht gefunden werden."
+    IDS_ERR_EXECORRUPT      "Die .EXE Datei ist ungültig\n(nicht-Win32 .EXE oder Fehler im .EXE Abbild)."
+    IDS_ERR_NOACCESS        "Das Betriebssystem verwehrt den\nZugriff auf die angegebene Datei."
+    IDS_ERR_BADLINK         "Die Dateinamenzuordnung ist\nunvollständig oder ungültig."
+    IDS_ERR_DDEBUSY         "Die DDE Transaktion konnte nicht\nabgeschlossen werden da andere\nDDE Transaktion ausgeführt wurden."
+    IDS_ERR_DDEFAIL         "Fehler bei der DDE Transaktion."
+    IDS_ERR_DDETIMEOUT      "Die DDE Transaktion konnte nicht abgeschlossen\nwerden wegen Zeitüberschreitung der Anfrage."
+    IDS_DLLNOTFOUND         "Die angegebene DLL konnte nicht gefunden werden."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERR_NOASSOC         "Der angegebenen Dateiendung ist\nkeine Anwendung zugeordnet."
+    IDS_ERR_MEMLOW          "Nicht genügend Speicher vorhanden, um die Operation abzuschließen."
+    IDS_ERR_SHARING         "Eine Zugriffsverletzung ist aufgetreten."
+    IDS_ERR_UNKNOWN         "Ein unbekannter Fehler (%d) ist aufgetreten."
+    IDS_ERR_HYPERLINK       "Hyperlink kann nicht geöffnet werden:\n\n%s"
+    IDS_ERR_DIMMISMATCH     "Die Matrizen (%dx%d und %dx%d) müssen die gleiche Dimension haben.\n"
+    IDS_ERR_DIMMULT         "Die Matrizen der Größe %dx%d und %dx%d können nicht miteinander multpliziert werden.\n"
+    IDS_ERR_DIMHCAT         "Die Matrizen der Größe %dx%d und %dx%d können nicht horizontal verkettet werden.\n"
+    IDS_ERR_DIMVCAT         "Die Matrizen der Größe %dx%d und %dx%d können nicht vertikal verkettet werden.\n"
+    IDS_ERR_2INDEXBAD       "Das Indexpaar (%d,%d) liegt nicht im Gültigkeitsbereich der %dx%d Matrix.\n"
+    IDS_ERR_ROWINDEX        "Der Zeilenindex %d liegt nicht im Gültigkeitsbereich der %dx%d Matrix.\n"
+    IDS_ERR_COLINDEX        "Der Spaltenindex %d liegt nicht im Gültigkeitsbereich der %dx%d Matrix.\n"
+    IDS_ERR_BADMATSIZE      "Die %dx%d Matrix kann nicht auf die Größe %dx%d umgeformt werden.\n"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_FILE_PRINT_OPTIONS DIALOGEX 0, 0, 367, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Print Setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Selection",IDC_STATIC,8,4,135,80,WS_GROUP
+    CONTROL         "Active Graph Window",IDC_PRINT_VIEW,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,18,22,92,10
+    CONTROL         "Active Document",IDC_PRINT_DOC,"Button",
+                    BS_AUTORADIOBUTTON,18,42,79,10
+    CONTROL         "Whole Application (Screenshot)",IDC_PRINT_APP,"Button",
+                    BS_AUTORADIOBUTTON,18,62,117,10
+    GROUPBOX        "&Options",IDC_STATIC_OPTIONS,151,4,150,80,WS_GROUP,0,
+                    HIDC_STATIC_OPTIONS
+    LTEXT           "DIB size limit:",IDC_STATIC_TEXT_F_ONE,162,22,68,8
+    EDITTEXT        IDC_PRINT_MEM,161,37,40,14,ES_AUTOHSCROLL
+    LTEXT           "kB",IDC_STATIC_TEXT_F_TWO,209,39,10,8
+    CONTROL         "Background white",IDC_PRINT_BKGND_WHITE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,161,62,69,10
+    PUSHBUTTON      "&Default",IDC_PRINT_MEM_STANDARD,241,19,50,14
+    PUSHBUTTON      "&Help",IDC_BUTTON_HELP,241,37,50,14
+    DEFPUSHBUTTON   "OK",IDOK,309,8,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,309,25,50,14
+    PUSHBUTTON      "&Print",IDC_BUTTON_PRINTER,309,43,50,14
+END
+
+IDD_DLG_OPENGL_INFO DIALOGEX 0, 0, 199, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "OpenGl Information"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "GL Library",IDC_STATIC,5,3,189,117,WS_GROUP
+    LTEXT           "Company :",IDC_STATIC,12,16,56,8,0,WS_EX_RIGHT
+    LTEXT           "Not available",IDC_STATIC_GL_VENDOR,71,16,117,8
+    LTEXT           "Reproduction :",IDC_STATIC,12,26,56,8,0,WS_EX_RIGHT
+    LTEXT           "Not available",IDC_STATIC_GL_RENDERER,71,26,117,8
+    LTEXT           "Version :",IDC_STATIC,12,36,56,8,0,WS_EX_RIGHT
+    LTEXT           "Not available",IDC_STATIC_GL_VERSION,71,36,117,8
+    LTEXT           "Acceleration :",IDC_STATIC,12,46,56,8,0,WS_EX_RIGHT
+    LTEXT           "Not available",IDC_STATIC_GL_ACCELERATION,71,46,117,8
+    LTEXT           "Expansion :",IDC_STATIC,12,61,56,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_GL_EXTENSIONS,71,61,117,52,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "GLU Library",IDC_STATIC,5,125,189,60,WS_GROUP
+    LTEXT           "Version :",IDC_STATIC,12,138,56,8,0,WS_EX_RIGHT
+    LTEXT           "Not available",IDC_STATIC_GLU_VERSION,71,138,117,8
+    LTEXT           "Expansion :",IDC_STATIC,12,153,56,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_GLU_EXTENSIONS,71,153,117,25,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | NOT 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "Close",IDOK,144,191,50,14
+    PUSHBUTTON      "Details...",IDC_DETAILS,90,191,50,14
+END
+
+IDD_DLG_OPTIONS DIALOG DISCARDABLE  0, 0, 205, 241
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Mouse",IDC_STATIC,8,4,132,85,WS_GROUP
+    LTEXT           "Left mouse button - Zoom/Rotate",IDC_STATIC,18,20,104,8
+    CONTROL         "Double-click/Click",IDC_RADIO_MOUSE_POLICY_0,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,18,38,72,10
+    CONTROL         "Click/Click",IDC_RADIO_MOUSE_POLICY_1,"Button",
+                    BS_AUTORADIOBUTTON,18,53,50,10
+    CONTROL         "Click+Hold/Release",IDC_RADIO_MOUSE_POLICY_2,"Button",
+                    BS_AUTORADIOBUTTON,18,68,91,10
+    GROUPBOX        "&Settings Affect",IDC_STATIC,8,97,131,40,WS_GROUP
+    CONTROL         "All Windows",IDC_CHECK_PROP_POLICY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,18,115,52,10
+    GROUPBOX        "&Last File",IDC_STATIC,8,145,131,40,WS_GROUP
+    CONTROL         "Automatically open",IDC_CHECK_REOPEN_POLICY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,18,163,76,10
+    GROUPBOX        "&Memory with graphics - Number Bytes",
+                    IDC_STATIC_SERIALZE_GRAPH_BYTES_GBOX,8,193,131,40,
+                    WS_GROUP
+    CONTROL         "1",IDC_RADIO_SERIALZE_GRAPH_BYTES_1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,19,211,20,10
+    CONTROL         "2",IDC_RADIO_SERIALZE_GRAPH_BYTES_2,"Button",
+                    BS_AUTORADIOBUTTON,49,211,20,10
+    CONTROL         "4",IDC_RADIO_SERIALZE_GRAPH_BYTES_4,"Button",
+                    BS_AUTORADIOBUTTON,79,211,20,10
+    CONTROL         "8",IDC_RADIO_SERIALZE_GRAPH_BYTES_8,"Button",
+                    BS_AUTORADIOBUTTON,109,211,20,10
+    DEFPUSHBUTTON   "OK",IDOK,147,8,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,147,25,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLG_FILE_PRINT_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 359
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_DLG_OPENGL_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 194
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_DLG_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 197
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 233
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURROTATE           CURSOR  DISCARDABLE     "currotat.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_OPENGLINFO          "Maximum Number of Lights: %d\n\nMaximum Number of application-defined areas: %d\n\n\n\nMaximum supported depth des Modellansichtsmatrixstapels: %d\n\nMaximum supported depth of projection matrix stacks: %d\n\nMaximum supported depth of texture matrix stacks: %d\n\nMaximum supported depth of named area stacks: %d\n\nMaximum supported depth of attribute stacks: %d\n\n\n\nMaximum width or height of alle texture maps: %d\n\nMaximum permitted recursion depth during notification execution: %d\n\nMaximum supported 1-D and 2-D equation evaluation order: %d\n\nMaximum supported width and height rendering fields: %dx%d\n\n\n\nNumber of additional color buffers: %d\n\n\n\nSupported sizes for smoothed points: %g-%g\n\nSupported difference between neighboring magnitude for smoothed points: %g\n\n\n\\Supported widths for smoothed lines: %g-%g\n\\Size difference between neighboring supported widths for smoothed lines: %g\n"
+    IDS_PRINTERGDI_ERROR    "The Printer '%s' doesn't support the requested function."
+    IDS_OGL_HARDWARE        "Full acceleration (ICD)"
+    IDS_OGL_HWPARTIAL       "Partial acceleration (MCD)"
+    IDS_OGL_SOFTWARE        "No acceleration (Software)"
+    IDS_NOTAVAILABLE        "Not Available"
+    IDS_ERR_MAXZOOM         "Zoom: Maximum possible expansion selected, further zoom not possible."
+    IDS_LINKMAUS_DBLKLIK    "Left mouse button: Double-click/Click"
+    IDS_LINKMAUS_KLIK       "Left mouse button: Click/Click"
+    IDS_LINKMAUS_KLIKHALT   "Left mouse button: Click+Hold/Release"
+    IDS_EIGEN_AKTUEL        "Features for Active Window"
+    IDS_EIGEN_ALLES         "Features for All Windows"
+    IDS_REOPEN_NONE         "At startup don't reload the new file list."
+    IDS_REOPEN_FIRST        "At startup open the first document in the new file list."
+    IDS_GRAFPREC_1BYTE      """Memory with graphics"" store graphics data with minimum precision (1 Byte)."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_GRAFPREC_2BYTE      """Memory with graphics"" store graphics data with low precision (2 Bytes)."
+    IDS_GRAFPREC_4BYTE      """Memory with graphics\\"" store graphics data with normal precision (4 Bytes)."
+    IDS_GRAFPREC_8BYTE      """Memory with graphics\\"" store graphics data with high precision (8 Bytes)."
+    IDS_ERR_PRINTERFNC      "The printer doesn't support the requested function."
+    IDS_ERR_PRINTNOMEM      "Cannot print.\nNot enough memory."
+    IDS_ERR_PRINTNOSTART    "Print job cannot be started."
+    IDS_ERR_OSNOMEM         "The operating system doesn't have\nenough memory or resources."
+    IDS_ERR_PATHNOTFOUND    "Cannot find the specified path."
+    IDS_ERR_FILENOTFOUND    "Cannot find the specified file."
+    IDS_ERR_EXECORRUPT      "The .EXE File is corrupt\n(not a Win32 .EXE or error im .EXE copy)."
+    IDS_ERR_NOACCESS        "The operating system denied\naccess to the specified File."
+    IDS_ERR_BADLINK         "The directory is\non-existent or corrupt."
+    IDS_ERR_DDEBUSY         "Die DDE transaction cannot\nexecute because another\nDDE transaction is executing."
+    IDS_ERR_DDEFAIL         "Error in the DDE transaction."
+    IDS_ERR_DDETIMEOUT      "The DDE transaction cannot execute\nbecause the request timed out."
+    IDS_DLLNOTFOUND         "Cannot find the specified DLL."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERR_NOASSOC         "The specified file extension has\nno associated application."
+    IDS_ERR_MEMLOW          "Not enough memory available, the operation was aborted."
+    IDS_ERR_SHARING         "An access violation has occurred."
+    IDS_ERR_UNKNOWN         "An unknown Error (%d) has occurred."
+    IDS_ERR_HYPERLINK       "The hyperlink cannot be opened:\n\n%s"
+    IDS_ERR_DIMMISMATCH     "The matrices (%dx%d and %dx%d) must have the same dimensions.\n"
+    IDS_ERR_DIMMULT         "The matrices of the size %dx%d and %dx%d cannot be multipled together.\n"
+    IDS_ERR_DIMHCAT         "The matrices of the size %dx%d and %dx%d cannot be row-appended.\n"
+    IDS_ERR_DIMVCAT         "The matrices of the size %dx%d and %dx%d cannot be column-appended.\n"
+    IDS_ERR_2INDEXBAD       "The index pair (%d,%d) is not in a valid area of a %dx%d matrix.\n"
+    IDS_ERR_ROWINDEX        "The row index %d is not in a valid area of a %dx%d matrix.\n"
+    IDS_ERR_COLINDEX        "The column %d is not in a valid area of a %dx%d matrix.\n"
+    IDS_ERR_BADMATSIZE      "A %dx%d matrix cannot be converted to the size %dx%d.\n"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif
+#include "res\OpenGL.rc2"  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen
+#include "l.deu\afxres.rc"          // Standardkomponenten
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

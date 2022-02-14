@@ -1,0 +1,7 @@
+; General32.def : Deklariert die Modul-Parameter für die DLL.
+
+LIBRARY      "OpenGL32"
+; DESCRIPTION  'General Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
